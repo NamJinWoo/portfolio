@@ -5,6 +5,7 @@ import Career from './portfolio/Career';
 import Introduction from './portfolio/Introduction';
 import Experience from './portfolio/Experience';
 import Project from './portfolio/Project'
+import Award from './portfolio/Award'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Introduction />
       <Career />
       <Experience />
-
+      <Award />
       <Project />
     </div>
   );
