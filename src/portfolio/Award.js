@@ -2,7 +2,7 @@ import React from 'react';
 
 function Award(){
     return (
-        <section>
+        <section className='container'>
             <h2 className='title'>Award</h2>
             <hr/>
 

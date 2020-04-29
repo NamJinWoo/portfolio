@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience(){
     return (
-        <section>
+        <section className='container'>
             <h2 className='title'>Experience</h2>
             <hr/>
             <h3>글로벌 인재트랙</h3>

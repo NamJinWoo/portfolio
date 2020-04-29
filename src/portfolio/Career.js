@@ -2,7 +2,7 @@ import React from "react";
 
 function Career(){
     return (
-        <section>
+        <section className='container'>
             <h2 className = "title">Career</h2>
             <hr/>
             <div>

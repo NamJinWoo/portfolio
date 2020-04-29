@@ -10,12 +10,16 @@ import Award from './portfolio/Award'
 function App() {
   return (
     <div>
-      <Title />
-      <Introduction />
-      <Career />
-      <Experience />
-      <Award />
-      <Project />
+      <div>
+        <Title />
+      </div>
+      <div className='portfolio'>
+        <Introduction />
+        <Career />
+        <Experience />
+        <Award />
+        <Project />
+      </div>
     </div>
   );
 }
