@@ -3,11 +3,12 @@ import React from "react";
 function Career(){
     return (
         <section>
-            <h2>Career</h2>
+            <h2 className = "title">Career</h2>
             <hr/>
             <div>
                 <h3>해외 인턴쉽</h3>
-                <span>기간 : 2019.03 ~ 2019.09</span>
+                <p>회사명 : NanoCellect Biomedical Inc.</p>
+                <p>기간 : 2019.03 ~ 2019.09</p>
                 <p>
                     저는 미국 샌디에고에 위치한 NanoCellect Biomedical Inc. 에서 
                     소프트웨어 팀 인턴으로 생활하면서 다양한 경험과 실무능력을 쌓을 수 있었습니다. 
