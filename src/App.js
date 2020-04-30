@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import Title from './portfolio/Title';
 import Career from './portfolio/Career';
 import Introduction from './portfolio/Introduction';
