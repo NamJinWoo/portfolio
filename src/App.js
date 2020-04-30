@@ -13,7 +13,7 @@ function App() {
       <div>
         <Title />
       </div>
-      <div className='portfolio'>
+      <div>
         <Introduction />
         <Career />
         <Activity />

@@ -1,0 +1,45 @@
+.intro_container {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #ffffff 50%,  #3498db 50%);
+}
+
+.intro_left_content {
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.intro_right_content {
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.intro_title {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 40%;
+  margin: auto;
+  color: #3498db;
+  font-size: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.intro_content{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 40%;
+  margin: auto;
+  color: #ffffff;
+  font-size: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
