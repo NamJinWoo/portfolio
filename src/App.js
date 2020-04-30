@@ -3,7 +3,7 @@ import './App.css';
 import Title from './portfolio/Title';
 import Career from './portfolio/Career';
 import Introduction from './portfolio/Introduction';
-import Experience from './portfolio/Experience';
+import Activity from './portfolio/Activity';
 import Project from './portfolio/Project'
 import Award from './portfolio/Award'
 
@@ -16,7 +16,7 @@ function App() {
       <div className='portfolio'>
         <Introduction />
         <Career />
-        <Experience />
+        <Activity />
         <Award />
         <Project />
       </div>

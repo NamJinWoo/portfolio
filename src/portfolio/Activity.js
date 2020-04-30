@@ -1,6 +1,6 @@
 import React from "react";
 
-function Experience(){
+function Activity(){
     return (
         <section className='container'>
             <h2 className='title'>Experience</h2>
@@ -16,4 +16,4 @@ function Experience(){
     );
 }
 
-export default Experience;
+export default Activity;
