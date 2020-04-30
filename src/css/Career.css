@@ -12,6 +12,7 @@
     height: 100vh;
     max-width: 50%;
     max-height: 100vh;
+    overflow-y: scroll;
     margin: 0;
     display: inline-block;
 }
@@ -60,6 +61,9 @@
   }
 
   .career_content .career_content_company{
+    font-size: 1.5vw;
+  }
+  .career_content .career_content_desc{
     font-size: 1vw;
   }
 

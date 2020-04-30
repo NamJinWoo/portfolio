@@ -10,6 +10,7 @@
     top: 0;
     width: 50%;
     height: 100vh;
+    overflow-y: scroll;
     margin: 0;
     display: inline-block;
 }
@@ -38,10 +39,24 @@
 .award_content{
   text-align: center;
   vertical-align: middle;
-  padding-top: 40%;
   margin: auto;
   color: #ffffff;
-  font-size: 7vw;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+}
+
+.award_content .award_content_title{
+  font-size: 2vw;
+}
+
+.award_content .award_content_company{
+  font-size: 1.5vw;
+}
+
+.award_content .award_content_desc{
+  font-size: 1vw;
+}
+
+hr{
+  width: 80%;
 }
