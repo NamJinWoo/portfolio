@@ -5,6 +5,7 @@
 }
 
 .intro_left_content {
+    vertical-align: top;
     left: 0;
     top: 0;
     width: 50%;
@@ -14,6 +15,7 @@
 }
 
 .intro_right_content {
+    vertical-align: top;
     right: 0;
     top: 0;
     width: 50%;

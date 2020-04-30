@@ -1,0 +1,68 @@
+.career_container {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg,  #3498db 50%, #ffffff 50%);
+}
+
+.career_left_content {
+    vertical-align: top;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    max-width: 50%;
+    max-height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.career_right_content {
+    vertical-align: top;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    max-width: 50%;
+    max-height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.career_right_content .career_title {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    vertical-align: middle;
+    margin: auto;
+    color: #3498db;
+    font-size: 7vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+
+.career_content_container{
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+  .career_content{
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .career_content .career_content_title{
+    font-size: 2vw;
+  }
+
+  .career_content .career_content_company{
+    font-size: 1vw;
+  }
+
+hr{
+    width: 80%;
+}
