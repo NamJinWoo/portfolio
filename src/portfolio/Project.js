@@ -1,21 +1,16 @@
 import React from "react";
+import '../css/Project.css';
 
 function Project(){
     return (
-        <section className='container'>
-            <h2 className='title'>Project</h2>
-            <hr/>
-            
-            <h3>도커를 활용한 논문 정리 웹사이트</h3>
-            <p>기간 : 2019.10 ~ 2020.05</p>
-            <p>도커를 활용한 논문 정리 웹사이트</p>
-            <p>Github URL : </p>
-
-            <h3>All-in-One Music</h3>
-            <p>기간 : 2018.05 ~ 2018.06</p>
-            <p>All-in-One Music</p>
-            <p>Github URL : </p>
-        </section>
+        <div className="project_container">
+            <div className="project_left_content">
+                <p className="project_title">Project</p>
+            </div>
+            <div className="project_right_content">
+                <div className="project_content">Content</div>
+            </div>
+        </div>
     );
 }
 

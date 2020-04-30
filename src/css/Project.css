@@ -1,0 +1,47 @@
+.project_container {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #ffffff 50%,  #3498db 50%);
+}
+
+.project_left_content {
+    vertical-align: top;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.project_right_content {
+    vertical-align: top;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.project_title {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 40%;
+  margin: auto;
+  color: #3498db;
+  font-size: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.project_content{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 40%;
+  margin: auto;
+  color: #ffffff;
+  font-size: 7vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
