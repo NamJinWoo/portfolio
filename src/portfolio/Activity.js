@@ -4,11 +4,11 @@ import '../css/Activity.css';
 function Activity(){
     return (
         <div className="activity_container">
-            <div className="intro_left_content">
-                <p className="intro_title">Activity</p>
+            <div className="activity_left_content">
+                <p className="activity_title">Activity</p>
             </div>
-            <div className="intro_right_content">
-                <div className="intro_content">Content</div>
+            <div className="activity_right_content">
+                <div className="activity_content">Content</div>
             </div>
         </div>
     );
