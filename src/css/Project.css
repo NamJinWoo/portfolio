@@ -16,6 +16,7 @@
 
 .project_right_content {
     vertical-align: top;
+    overflow-y: scroll;
     right: 0;
     top: 0;
     width: 50%;
@@ -35,13 +36,27 @@
   font-weight: 700;
 }
 
-.project_content{
-  text-align: center;
+.project_content_container{
+  padding-left: 1%;
   vertical-align: middle;
-  padding-top: 40%;
   margin: auto;
   color: #ffffff;
-  font-size: 7vw;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+}
+
+.project_content .project_content_title{
+  font-size: 2vw;
+}
+
+.project_content .project_content_company{
+  font-size: 1.5vw;
+}
+
+.project_content .project_content_desc{
+  font-size: 1vw;
+}
+
+hr{
+  width: 80%;
 }
