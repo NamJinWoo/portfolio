@@ -25,6 +25,11 @@
     display: inline-block;
 }
 
+.award_content_container{
+  width: 80%;
+  margin: auto;
+}
+
 .award_title {
   text-align: center;
   vertical-align: middle;
